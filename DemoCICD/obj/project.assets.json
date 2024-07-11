@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rzaza\\source\\repos\\DemoCICD\\DemoCICD\\DemoCICD.csproj",
+      "projectUniqueName": "C:\\Users\\rzaza\\Desktop\\DemoCICD\\DemoCICD\\DemoCICD.csproj",
       "projectName": "DemoCICD",
-      "projectPath": "C:\\Users\\rzaza\\source\\repos\\DemoCICD\\DemoCICD\\DemoCICD.csproj",
+      "projectPath": "C:\\Users\\rzaza\\Desktop\\DemoCICD\\DemoCICD\\DemoCICD.csproj",
       "packagesPath": "C:\\Users\\rzaza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rzaza\\source\\repos\\DemoCICD\\DemoCICD\\obj\\",
+      "outputPath": "C:\\Users\\rzaza\\Desktop\\DemoCICD\\DemoCICD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rzaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
