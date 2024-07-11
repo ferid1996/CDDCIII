@@ -12,22 +12,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Build
-      run: dotnet build
+      - name: Build
+        run: dotnet build
 
-    - name: Test
-      run: dotnet test --verbosity normal
+      - name: Test
+        run: dotnet test --verbosity normal
 
-    - name: Check for merge conflicts
-      id: merge-check
-      run: |
-        git fetch origin master
-        git checkout -b temp-branch
-        git merge origin/master --no-commit
-        if [ $? -ne 0 ]; then
-          echo "Merge conflict detected"
-          exit 1
-        fi
+      - name: Check for merge conflicts
+        id: merge-check
+        run: |
+          git fetch origin master
+          git checkout -b temp-branch
+          git merge origin/master --no-commit
+          if [ $? -ne 0 ]; then
+            echo "Merge conflict detected"
+            exit 1
